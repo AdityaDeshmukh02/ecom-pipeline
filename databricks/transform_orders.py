@@ -91,3 +91,4 @@ verification_df = spark.read.parquet("/Volumes/workspace/default/raw_data/orders
 print(f"Row count: {verification_df.count()}")
 verification_df.show(3, vertical = True, truncate = False)
 
+
